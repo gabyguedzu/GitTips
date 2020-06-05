@@ -25,13 +25,13 @@
 
 ![](img/gitflow.png)
 
+> https://git-school.github.io/visualizing-git/ - test and play
 
+Example:
 
+![](img/visualbranches.png)
 
-
-
-
-
+___
 
 
 
