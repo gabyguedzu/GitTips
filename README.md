@@ -61,12 +61,27 @@ ___
   * resume a specific saved stash, run command: ```git stash apply INDICE_DO_STASH```
   * delete stash, run command: ```git drop stash```
   * apply and remove stash, run command: ```git stash pop```
+  
+- Uniting commits
+
+  * Let's rebase, run command: ```git rebase -i HEAD~3```
+  * Will open the default editor of your PC, in my case the VI, select the commit to be the pick, add s in the rest.
+
+  Here's an example from the following image:
+
+  ![](img/rebasei.png)
 
 
 
+* Getting a specific commit (otherwise branch)  and bringing to current branch
 
+  * run command: ```git cherry-pick hash_do_commit```
 
+  
 
+Example:
+
+![](img/cherrypick.png)
 
 
 
