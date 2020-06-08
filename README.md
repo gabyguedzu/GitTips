@@ -131,5 +131,23 @@ run command: ```git checkout HASH_DO_COMMIT```
 
 > https://devhints.io/git-log
 
+#### Finding who/author modified such file
 
+###### To find who modified a file:
+
+run command: ```git blame nome_do_arquivo```
+
+#### Interesting tools for working with git
+
+* git kraken
+* source tree
+* git cola
+
+___
+
+
+
+Suggestion? 
+
+Please open an issue <3
 
