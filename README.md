@@ -85,5 +85,51 @@ Example:
 
 #### Git bisect tutorial
 
+###### First:
+
+run command: ```git log --oneline```
+
+###### Second:
+
+run command: ```git bisect start```
+
+###### Third:
+
+indicate which state/commit demand is bad/bugged/with incorrect change, for example take the **HEAD**:
+
+run command: ```git bisect bad HEAD```
+
+###### Fourth:
+
+indicate which state/commit demand is correct/bug-free, with correct change, for example take the **ANY HASH**:
+
+run command: ```git bisect good c1273bf8```
+
+> Within these committed indicated he goes searching until I determine that: YES, this is it!
+
+###### Fifth:
+
+ending the search
+
+run command: ```git bisect reset```
+
+###### Sixth:
+
+by hashing the chosen commit and then revert with this hash
+
+run command: ```git show hash_commit```
+
+##### Time travel - commit
+
+Let's start with the, run command: ```git log --oneline```
+
+See that we have several commits and we have a single hash for each commit, to change your application to a specific commit.
+
+run command: ```git checkout HASH_DO_COMMIT```
+
+> Feel relaxed when you give a ```git log```
+
+> https://devhints.io/git-log
+
 
 
